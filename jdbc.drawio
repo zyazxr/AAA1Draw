@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-12-11T08:00:52.344Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36 Edg/87.0.664.57" etag="QqBpzqhQD3tRmLa1K1lT" version="14.0.1" type="github">
+<mxfile host="app.diagrams.net" modified="2020-12-11T08:07:08.227Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36 Edg/87.0.664.57" etag="-DP_uutRDPMj_7bLlXO9" version="14.0.1" type="github">
   <diagram id="AH8HGjk2Pc57R64IrjIq" name="Page-1">
     <mxGraphModel dx="1422" dy="762" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -11,7 +11,7 @@
           <mxGeometry x="240" y="275" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="G98K324JK_NKFYNjdX6U-3" value="数据访问层" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="250" y="460" width="120" height="60" as="geometry" />
+          <mxGeometry x="240" y="435" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="G98K324JK_NKFYNjdX6U-5" value="&lt;span style=&quot;color: rgb(0, 0, 0); font-family: helvetica; font-size: 12px; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: center; text-indent: 0px; text-transform: none; word-spacing: 0px; background-color: rgb(248, 249, 250); display: inline; float: none;&quot;&gt;表现层&lt;/span&gt;" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="60" y="130" width="60" height="30" as="geometry" />
@@ -20,7 +20,7 @@
           <mxGeometry x="60" y="290" width="90" height="30" as="geometry" />
         </mxCell>
         <mxCell id="G98K324JK_NKFYNjdX6U-7" value="&lt;span style=&quot;color: rgb(0, 0, 0); font-family: helvetica; font-size: 12px; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: center; text-indent: 0px; text-transform: none; word-spacing: 0px; background-color: rgb(248, 249, 250); display: inline; float: none;&quot;&gt;数据访问层&lt;/span&gt;" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="50" y="470" width="90" height="30" as="geometry" />
+          <mxGeometry x="60" y="450" width="90" height="30" as="geometry" />
         </mxCell>
         <mxCell id="G98K324JK_NKFYNjdX6U-12" value="" style="endArrow=none;dashed=1;html=1;" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
@@ -38,10 +38,10 @@
         </mxCell>
         <mxCell id="G98K324JK_NKFYNjdX6U-14" value="" style="endArrow=none;dashed=1;html=1;" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="110" y="430" as="sourcePoint" />
-            <mxPoint x="510" y="430" as="targetPoint" />
+            <mxPoint x="120" y="390" as="sourcePoint" />
+            <mxPoint x="520" y="390" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="400" y="430" />
+              <mxPoint x="410" y="390" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -49,6 +49,24 @@
           <mxGeometry x="-0.145" y="2" relative="1" as="geometry">
             <mxPoint x="19" as="offset" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="G98K324JK_NKFYNjdX6U-16" value="MySql" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
+          <mxGeometry x="140" y="600" width="60" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="G98K324JK_NKFYNjdX6U-17" value="DM" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
+          <mxGeometry x="270" y="600" width="60" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="G98K324JK_NKFYNjdX6U-18" value="Oracle" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
+          <mxGeometry x="490" y="600" width="60" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="G98K324JK_NKFYNjdX6U-20" value="&lt;pre style=&quot;background-color: #2b2b2b ; color: #a9b7c6 ; font-family: &amp;quot;consolas&amp;quot; ; font-size: 9.0pt&quot;&gt;dm.jdbc.driver.dm7&lt;/pre&gt;" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="260" y="540" width="140" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="G98K324JK_NKFYNjdX6U-21" value="&lt;pre style=&quot;color: rgb(0 , 0 , 0) ; font-size: 12px ; font-style: normal ; font-weight: 400 ; letter-spacing: normal ; text-align: center ; text-indent: 0px ; text-transform: none ; word-spacing: 0px ; background-color: rgb(43 , 43 , 43)&quot;&gt;&lt;font color=&quot;#a9b7c6&quot; face=&quot;consolas&quot;&gt;mysql-connector-java&lt;/font&gt;&lt;/pre&gt;" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="100" y="540" width="160" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="G98K324JK_NKFYNjdX6U-22" value="&lt;pre style=&quot;background-color: #2b2b2b ; color: #a9b7c6 ; font-family: &amp;quot;consolas&amp;quot; ; font-size: 9.0pt&quot;&gt;oracle.jdbc.driver.OracleDriver&lt;/pre&gt;" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="405" y="540" width="230" height="50" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
