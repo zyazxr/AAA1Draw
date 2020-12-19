@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-12-19T05:31:01.096Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36 Edg/87.0.664.60" etag="l3hWXq7otNiYHzBqZ6Ds" version="14.0.5" type="github" pages="7">
+<mxfile host="app.diagrams.net" modified="2020-12-19T05:37:36.039Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36 Edg/87.0.664.60" etag="MEnjYsVq0PhbFMICUT-l" version="14.0.5" type="github" pages="7">
   <diagram name="mybatis_all_selectList" id="13e1069c-82ec-6db2-03f1-153e76fe0fe0">
     <mxGraphModel dx="1422" dy="762" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="#ffffff" math="0" shadow="0">
       <root>
@@ -430,11 +430,64 @@
       <root>
         <mxCell id="DNJ_wXoavEvFbaRkYzXb-0" />
         <mxCell id="DNJ_wXoavEvFbaRkYzXb-1" parent="DNJ_wXoavEvFbaRkYzXb-0" />
+        <mxCell id="Kr8SvhcPyJ96pY6L8qH0-9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="DNJ_wXoavEvFbaRkYzXb-1" source="DNJ_wXoavEvFbaRkYzXb-2" target="DNJ_wXoavEvFbaRkYzXb-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="DNJ_wXoavEvFbaRkYzXb-2" value="JAVA应用程序" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="DNJ_wXoavEvFbaRkYzXb-1">
-          <mxGeometry x="360" y="170" width="120" height="60" as="geometry" />
+          <mxGeometry x="354" y="150" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Kr8SvhcPyJ96pY6L8qH0-10" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;curved=1;" edge="1" parent="DNJ_wXoavEvFbaRkYzXb-1" source="DNJ_wXoavEvFbaRkYzXb-3" target="Kr8SvhcPyJ96pY6L8qH0-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Kr8SvhcPyJ96pY6L8qH0-11" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="DNJ_wXoavEvFbaRkYzXb-1" source="DNJ_wXoavEvFbaRkYzXb-3" target="Kr8SvhcPyJ96pY6L8qH0-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Kr8SvhcPyJ96pY6L8qH0-12" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="DNJ_wXoavEvFbaRkYzXb-1" source="DNJ_wXoavEvFbaRkYzXb-3">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="340" y="410" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Kr8SvhcPyJ96pY6L8qH0-13" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="DNJ_wXoavEvFbaRkYzXb-1" source="DNJ_wXoavEvFbaRkYzXb-3" target="Kr8SvhcPyJ96pY6L8qH0-8">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="DNJ_wXoavEvFbaRkYzXb-3" value="JDBC: SUN公司定义的一组接口规范" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="DNJ_wXoavEvFbaRkYzXb-1">
-          <mxGeometry x="160" y="260" width="570" height="60" as="geometry" />
+          <mxGeometry x="129" y="270" width="570" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Kr8SvhcPyJ96pY6L8qH0-2" value="SQLServer" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;shadow=0;" vertex="1" parent="DNJ_wXoavEvFbaRkYzXb-1">
+          <mxGeometry x="480" y="570" width="60" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="Kr8SvhcPyJ96pY6L8qH0-0" value="Mysql" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;shadow=0;" vertex="1" parent="DNJ_wXoavEvFbaRkYzXb-1">
+          <mxGeometry x="100" y="570" width="60" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="Kr8SvhcPyJ96pY6L8qH0-1" value="Oracle" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;shadow=0;" vertex="1" parent="DNJ_wXoavEvFbaRkYzXb-1">
+          <mxGeometry x="290" y="570" width="60" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="Kr8SvhcPyJ96pY6L8qH0-3" value="DB2" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;shadow=0;" vertex="1" parent="DNJ_wXoavEvFbaRkYzXb-1">
+          <mxGeometry x="670" y="570" width="60" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="Kr8SvhcPyJ96pY6L8qH0-14" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="DNJ_wXoavEvFbaRkYzXb-1" source="Kr8SvhcPyJ96pY6L8qH0-5" target="Kr8SvhcPyJ96pY6L8qH0-0">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Kr8SvhcPyJ96pY6L8qH0-5" value="JDBCMysqlImpl" style="shape=tape;whiteSpace=wrap;html=1;shadow=0;" vertex="1" parent="DNJ_wXoavEvFbaRkYzXb-1">
+          <mxGeometry x="80" y="410" width="120" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="Kr8SvhcPyJ96pY6L8qH0-15" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="DNJ_wXoavEvFbaRkYzXb-1" source="Kr8SvhcPyJ96pY6L8qH0-6" target="Kr8SvhcPyJ96pY6L8qH0-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Kr8SvhcPyJ96pY6L8qH0-6" value="JDBCOraleImpl" style="shape=tape;whiteSpace=wrap;html=1;shadow=0;" vertex="1" parent="DNJ_wXoavEvFbaRkYzXb-1">
+          <mxGeometry x="280" y="410" width="120" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="Kr8SvhcPyJ96pY6L8qH0-16" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="DNJ_wXoavEvFbaRkYzXb-1" source="Kr8SvhcPyJ96pY6L8qH0-7" target="Kr8SvhcPyJ96pY6L8qH0-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Kr8SvhcPyJ96pY6L8qH0-7" value="JDBCSQLServerImpl" style="shape=tape;whiteSpace=wrap;html=1;shadow=0;" vertex="1" parent="DNJ_wXoavEvFbaRkYzXb-1">
+          <mxGeometry x="450" y="410" width="120" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="Kr8SvhcPyJ96pY6L8qH0-17" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="DNJ_wXoavEvFbaRkYzXb-1" source="Kr8SvhcPyJ96pY6L8qH0-8" target="Kr8SvhcPyJ96pY6L8qH0-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Kr8SvhcPyJ96pY6L8qH0-8" value="JDBCDB2Impl" style="shape=tape;whiteSpace=wrap;html=1;shadow=0;" vertex="1" parent="DNJ_wXoavEvFbaRkYzXb-1">
+          <mxGeometry x="640" y="410" width="120" height="100" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
