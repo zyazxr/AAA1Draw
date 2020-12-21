@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-12-21T07:59:35.221Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36 Edg/87.0.664.66" etag="TxSrem24K4Xdv6ne7hEI" version="14.1.1" type="github" pages="8">
+<mxfile host="app.diagrams.net" modified="2020-12-21T08:11:42.634Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36 Edg/87.0.664.66" etag="99A1fFHfSWeBhSwQwtyj" version="14.1.1" type="github" pages="8">
   <diagram name="mybatis_all_selectList" id="13e1069c-82ec-6db2-03f1-153e76fe0fe0">
     <mxGraphModel dx="1422" dy="762" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="#ffffff" math="0" shadow="0">
       <root>
@@ -366,7 +366,7 @@
         <mxCell id="G9gXlNT_TF41lu5xVbCk-0" />
         <mxCell id="G9gXlNT_TF41lu5xVbCk-1" parent="G9gXlNT_TF41lu5xVbCk-0" />
         <mxCell id="G9gXlNT_TF41lu5xVbCk-2" value="" style="shape=table;html=1;whiteSpace=wrap;startSize=0;container=1;collapsible=0;childLayout=tableLayout;" parent="G9gXlNT_TF41lu5xVbCk-1" vertex="1">
-          <mxGeometry x="-640" y="260" width="770" height="330" as="geometry" />
+          <mxGeometry x="-650" y="200" width="770" height="330" as="geometry" />
         </mxCell>
         <mxCell id="G9gXlNT_TF41lu5xVbCk-3" value="" style="shape=partialRectangle;html=1;whiteSpace=wrap;collapsible=0;dropTarget=0;pointerEvents=0;fillColor=none;top=0;left=0;bottom=0;right=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="G9gXlNT_TF41lu5xVbCk-2" vertex="1">
           <mxGeometry width="770" height="40" as="geometry" />
@@ -422,10 +422,10 @@
         <mxCell id="3NMpVCJHfMFbJTmnz2SG-19" value="直接操作数据库,效率高" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;overflow=hidden;" vertex="1" parent="3NMpVCJHfMFbJTmnz2SG-17">
           <mxGeometry x="190" width="190" height="117" as="geometry" />
         </mxCell>
-        <mxCell id="3NMpVCJHfMFbJTmnz2SG-20" value="sql和项目解耦&lt;br&gt;逆向工程&lt;br&gt;动态SQL" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;overflow=hidden;" vertex="1" parent="3NMpVCJHfMFbJTmnz2SG-17">
+        <mxCell id="3NMpVCJHfMFbJTmnz2SG-20" value="sql和项目解耦,便于统一管理和优化&lt;br&gt;逆向工程&lt;br&gt;动态SQL" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;overflow=hidden;" vertex="1" parent="3NMpVCJHfMFbJTmnz2SG-17">
           <mxGeometry x="380" width="190" height="117" as="geometry" />
         </mxCell>
-        <mxCell id="3NMpVCJHfMFbJTmnz2SG-21" value="不用写SQL,项目易管理&lt;br&gt;对象关系维护友好" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;overflow=hidden;" vertex="1" parent="3NMpVCJHfMFbJTmnz2SG-17">
+        <mxCell id="3NMpVCJHfMFbJTmnz2SG-21" value="不用写SQL,项目易管理&lt;br&gt;对象关系维护友好&lt;br&gt;自动化高" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;overflow=hidden;" vertex="1" parent="3NMpVCJHfMFbJTmnz2SG-17">
           <mxGeometry x="570" width="200" height="117" as="geometry" />
         </mxCell>
       </root>
