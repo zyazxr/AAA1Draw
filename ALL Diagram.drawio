@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-01-28T12:07:01.185Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.96 Safari/537.36 Edg/88.0.705.53" etag="wWhCOAGRhTK37do344Bk" version="14.1.4" type="github" pages="9">
+<mxfile host="app.diagrams.net" modified="2021-01-28T12:08:07.275Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.96 Safari/537.36 Edg/88.0.705.53" etag="M5lr_PAdSRJB_fDmgQBl" version="14.1.4" type="github" pages="9">
   <diagram name="mybatis_all_selectList" id="13e1069c-82ec-6db2-03f1-153e76fe0fe0">
     <mxGraphModel dx="1422" dy="762" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="#ffffff" math="0" shadow="0">
       <root>
@@ -768,22 +768,22 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="oLRJQmtp0UXwzPmr5qbu-1" value="频率最大偏差&lt;br&gt;频率极值时间&lt;br&gt;系统出力变化" style="text;whiteSpace=wrap;html=1;strokeColor=#000000;" vertex="1" parent="p52MnaAaJ3OJOqMT-xEO-1">
-          <mxGeometry x="310" y="265" width="80" height="60" as="geometry" />
+          <mxGeometry x="290" y="265" width="80" height="60" as="geometry" />
         </mxCell>
         <mxCell id="oLRJQmtp0UXwzPmr5qbu-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="p52MnaAaJ3OJOqMT-xEO-1" source="oLRJQmtp0UXwzPmr5qbu-2" target="oLRJQmtp0UXwzPmr5qbu-3">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="oLRJQmtp0UXwzPmr5qbu-2" value="数据清洗" style="text;whiteSpace=wrap;html=1;strokeColor=#000000;" vertex="1" parent="p52MnaAaJ3OJOqMT-xEO-1">
-          <mxGeometry x="430" y="280" width="70" height="30" as="geometry" />
+          <mxGeometry x="400" y="280" width="50" height="30" as="geometry" />
         </mxCell>
         <mxCell id="oLRJQmtp0UXwzPmr5qbu-8" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="p52MnaAaJ3OJOqMT-xEO-1" source="oLRJQmtp0UXwzPmr5qbu-3" target="oLRJQmtp0UXwzPmr5qbu-4">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="oLRJQmtp0UXwzPmr5qbu-3" value="K-MEANS聚类" style="text;whiteSpace=wrap;html=1;strokeColor=#000000;" vertex="1" parent="p52MnaAaJ3OJOqMT-xEO-1">
-          <mxGeometry x="540" y="280" width="100" height="30" as="geometry" />
+          <mxGeometry x="490" y="280" width="90" height="30" as="geometry" />
         </mxCell>
         <mxCell id="oLRJQmtp0UXwzPmr5qbu-4" value="聚类结果" style="text;whiteSpace=wrap;html=1;strokeColor=#000000;" vertex="1" parent="p52MnaAaJ3OJOqMT-xEO-1">
-          <mxGeometry x="700" y="280" width="70" height="30" as="geometry" />
+          <mxGeometry x="610" y="280" width="50" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
