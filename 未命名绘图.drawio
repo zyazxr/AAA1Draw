@@ -1,1 +1,60 @@
-<mxfile host="app.diagrams.net" modified="2022-09-15T07:22:14.360Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36 Edg/105.0.1343.33" version="20.2.6" etag="dRgrUK1oOwK-OfPBFwsZ" type="github"><diagram id="kGhP79_6FLZrt5WnXMch">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2022-09-15T07:27:58.320Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36 Edg/105.0.1343.33" etag="gjBW6aL7m3DWEcPucT62" version="20.2.6" type="github">
+  <diagram id="kGhP79_6FLZrt5WnXMch" name="第 1 页">
+    <mxGraphModel dx="1145" dy="794" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="wIXOqrFylinlSayTTi0x-1" value="物料编码&lt;br&gt;(全量)" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="60" y="190" width="120" height="310" as="geometry" />
+        </mxCell>
+        <mxCell id="wIXOqrFylinlSayTTi0x-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.452;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="wIXOqrFylinlSayTTi0x-2" target="wIXOqrFylinlSayTTi0x-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="wIXOqrFylinlSayTTi0x-2" value="工程 A" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="500" y="230" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="wIXOqrFylinlSayTTi0x-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.713;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="wIXOqrFylinlSayTTi0x-3" target="wIXOqrFylinlSayTTi0x-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="wIXOqrFylinlSayTTi0x-3" value="工程B" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="530" y="420" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="wIXOqrFylinlSayTTi0x-6" value="get 具体编码" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="325" y="265" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="wIXOqrFylinlSayTTi0x-7" value="get 具体编码" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="280" y="460" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="wIXOqrFylinlSayTTi0x-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.45;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="wIXOqrFylinlSayTTi0x-8" target="wIXOqrFylinlSayTTi0x-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="wIXOqrFylinlSayTTi0x-10" value="对外提供该工程使用频率高的编码" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="wIXOqrFylinlSayTTi0x-9">
+          <mxGeometry x="-0.2201" y="2" relative="1" as="geometry">
+            <mxPoint y="1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="wIXOqrFylinlSayTTi0x-8" value="编码热数据" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="130" y="527" width="150" height="115" as="geometry" />
+        </mxCell>
+        <mxCell id="wIXOqrFylinlSayTTi0x-11" value="方案一：小改，优化现有的逻辑，使线上好用点" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="70" y="140" width="340" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="wIXOqrFylinlSayTTi0x-12" value="方案二：每个项目建立自己的常用库，大改，需要重新设计，编码树，需要引入工程事信息" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="70" y="720" width="340" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="wIXOqrFylinlSayTTi0x-13" value="物料编码&lt;br&gt;(全量)" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="90" y="800" width="120" height="310" as="geometry" />
+        </mxCell>
+        <mxCell id="wIXOqrFylinlSayTTi0x-14" value="工程树" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="310" y="800" width="120" height="310" as="geometry" />
+        </mxCell>
+        <mxCell id="wIXOqrFylinlSayTTi0x-15" value="工程A常用库" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="250" y="860" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="wIXOqrFylinlSayTTi0x-16" value="工程B常用库" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="250" y="1000" width="120" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
